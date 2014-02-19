@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A01E9F1818B5150000EF8118 /* BuildAssessmentModel */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A01E9F1918B5150000EF8118 /* Build configuration list for PBXAggregateTarget "BuildAssessmentModel" */;
+			buildPhases = (
+				A01E9F1C18B5151000EF8118 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = BuildAssessmentModel;
+			productName = BuildAssessmentModel;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A01E9E7D18B5108D00EF8118 /* Assessment.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E4E18B5108D00EF8118 /* Assessment.m */; };
+		A01E9E7E18B5108D00EF8118 /* AssessmentFinishView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5018B5108D00EF8118 /* AssessmentFinishView.m */; };
+		A01E9E7F18B5108D00EF8118 /* AssessmentManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5218B5108D00EF8118 /* AssessmentManagerViewController.m */; };
+		A01E9E8018B5108D00EF8118 /* AssessmentStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5418B5108D00EF8118 /* AssessmentStartView.m */; };
+		A01E9E8118B5108D00EF8118 /* BaseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5618B5108D00EF8118 /* BaseParser.m */; };
+		A01E9E8218B5108D00EF8118 /* Criteria.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5818B5108D00EF8118 /* Criteria.m */; };
+		A01E9E8318B5108D00EF8118 /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5A18B5108D00EF8118 /* Element.m */; };
+		A01E9E8418B5108D00EF8118 /* Instrument.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5D18B5108D00EF8118 /* Instrument.m */; };
+		A01E9E8518B5108D00EF8118 /* InstrumentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E5F18B5108D00EF8118 /* InstrumentTitleView.m */; };
+		A01E9E8618B5108D00EF8118 /* InstrumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E6118B5108D00EF8118 /* InstrumentView.m */; };
+		A01E9E8718B5108D00EF8118 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E6318B5108D00EF8118 /* Item.m */; };
+		A01E9E8818B5108D00EF8118 /* ItemCalibration.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E6518B5108D00EF8118 /* ItemCalibration.m */; };
+		A01E9E8918B5108D00EF8118 /* ItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E6718B5108D00EF8118 /* ItemData.m */; };
+		A01E9E8A18B5108D00EF8118 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E6918B5108D00EF8118 /* Map.m */; };
+		A01E9E8B18B5108D00EF8118 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E6B18B5108D00EF8118 /* Object.m */; };
+		A01E9E8C18B5108D00EF8118 /* Range.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E6E18B5108D00EF8118 /* Range.m */; };
+		A01E9E8D18B5108D00EF8118 /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E7018B5108D00EF8118 /* Resource.m */; };
+		A01E9E8E18B5108D00EF8118 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E7218B5108D00EF8118 /* Result.m */; };
+		A01E9E8F18B5108D00EF8118 /* TapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E7418B5108D00EF8118 /* TapView.m */; };
+		A01E9E9018B5108D00EF8118 /* Threshold.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E7618B5108D00EF8118 /* Threshold.m */; };
+		A01E9E9118B5108D00EF8118 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E7818B5108D00EF8118 /* User.m */; };
+		A01E9E9218B5108D00EF8118 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E7A18B5108D00EF8118 /* UUID.m */; };
+		A01E9E9318B5108D00EF8118 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E9E7C18B5108D00EF8118 /* XMLReader.m */; };
+		A01E9EFF18B514C000EF8118 /* Assessment.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E4D18B5108D00EF8118 /* Assessment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0018B514C000EF8118 /* AssessmentFinishView.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E4F18B5108D00EF8118 /* AssessmentFinishView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0118B514C000EF8118 /* AssessmentManagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5118B5108D00EF8118 /* AssessmentManagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0218B514C000EF8118 /* AssessmentStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5318B5108D00EF8118 /* AssessmentStartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0318B514C000EF8118 /* BaseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5518B5108D00EF8118 /* BaseParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0418B514C000EF8118 /* Criteria.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5718B5108D00EF8118 /* Criteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0518B514C000EF8118 /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5918B5108D00EF8118 /* Element.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0618B514C000EF8118 /* Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5B18B5108D00EF8118 /* Engine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0718B514C000EF8118 /* Instrument.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5C18B5108D00EF8118 /* Instrument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0818B514C000EF8118 /* InstrumentTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E5E18B5108D00EF8118 /* InstrumentTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0918B514C000EF8118 /* InstrumentView.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6018B5108D00EF8118 /* InstrumentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0A18B514C000EF8118 /* Item.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6218B5108D00EF8118 /* Item.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0B18B514C000EF8118 /* ItemCalibration.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6418B5108D00EF8118 /* ItemCalibration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0C18B514C000EF8118 /* ItemData.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6618B5108D00EF8118 /* ItemData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0D18B514C000EF8118 /* Map.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6818B5108D00EF8118 /* Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0E18B514C000EF8118 /* Object.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6A18B5108D00EF8118 /* Object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F0F18B514C000EF8118 /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6C18B5108D00EF8118 /* Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1018B514C000EF8118 /* Range.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6D18B5108D00EF8118 /* Range.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1118B514C000EF8118 /* Resource.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E6F18B5108D00EF8118 /* Resource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1218B514C000EF8118 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E7118B5108D00EF8118 /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1318B514C000EF8118 /* TapView.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E7318B5108D00EF8118 /* TapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1418B514C000EF8118 /* Threshold.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E7518B5108D00EF8118 /* Threshold.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1518B514C000EF8118 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E7718B5108D00EF8118 /* User.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1618B514C000EF8118 /* UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E7918B5108D00EF8118 /* UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01E9F1718B514C000EF8118 /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E9E7B18B5108D00EF8118 /* XMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A01E9E3B18B5105A00EF8118 /* AssessmentModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01E9E3E18B5105A00EF8118 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A01E9E4218B5105A00EF8118 /* AssessmentModel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssessmentModel-Info.plist"; sourceTree = "<group>"; };
+		A01E9E4418B5105A00EF8118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A01E9E4618B5105A00EF8118 /* AssessmentModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssessmentModel-Prefix.pch"; sourceTree = "<group>"; };
+		A01E9E4D18B5108D00EF8118 /* Assessment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assessment.h; sourceTree = "<group>"; };
+		A01E9E4E18B5108D00EF8118 /* Assessment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assessment.m; sourceTree = "<group>"; };
+		A01E9E4F18B5108D00EF8118 /* AssessmentFinishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssessmentFinishView.h; sourceTree = "<group>"; };
+		A01E9E5018B5108D00EF8118 /* AssessmentFinishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssessmentFinishView.m; sourceTree = "<group>"; };
+		A01E9E5118B5108D00EF8118 /* AssessmentManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssessmentManagerViewController.h; sourceTree = "<group>"; };
+		A01E9E5218B5108D00EF8118 /* AssessmentManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssessmentManagerViewController.m; sourceTree = "<group>"; };
+		A01E9E5318B5108D00EF8118 /* AssessmentStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssessmentStartView.h; sourceTree = "<group>"; };
+		A01E9E5418B5108D00EF8118 /* AssessmentStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssessmentStartView.m; sourceTree = "<group>"; };
+		A01E9E5518B5108D00EF8118 /* BaseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseParser.h; sourceTree = "<group>"; };
+		A01E9E5618B5108D00EF8118 /* BaseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseParser.m; sourceTree = "<group>"; };
+		A01E9E5718B5108D00EF8118 /* Criteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Criteria.h; sourceTree = "<group>"; };
+		A01E9E5818B5108D00EF8118 /* Criteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Criteria.m; sourceTree = "<group>"; };
+		A01E9E5918B5108D00EF8118 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		A01E9E5A18B5108D00EF8118 /* Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Element.m; sourceTree = "<group>"; };
+		A01E9E5B18B5108D00EF8118 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		A01E9E5C18B5108D00EF8118 /* Instrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instrument.h; sourceTree = "<group>"; };
+		A01E9E5D18B5108D00EF8118 /* Instrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instrument.m; sourceTree = "<group>"; };
+		A01E9E5E18B5108D00EF8118 /* InstrumentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstrumentTitleView.h; sourceTree = "<group>"; };
+		A01E9E5F18B5108D00EF8118 /* InstrumentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstrumentTitleView.m; sourceTree = "<group>"; };
+		A01E9E6018B5108D00EF8118 /* InstrumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstrumentView.h; sourceTree = "<group>"; };
+		A01E9E6118B5108D00EF8118 /* InstrumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstrumentView.m; sourceTree = "<group>"; };
+		A01E9E6218B5108D00EF8118 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		A01E9E6318B5108D00EF8118 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		A01E9E6418B5108D00EF8118 /* ItemCalibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCalibration.h; sourceTree = "<group>"; };
+		A01E9E6518B5108D00EF8118 /* ItemCalibration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCalibration.m; sourceTree = "<group>"; };
+		A01E9E6618B5108D00EF8118 /* ItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemData.h; sourceTree = "<group>"; };
+		A01E9E6718B5108D00EF8118 /* ItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemData.m; sourceTree = "<group>"; };
+		A01E9E6818B5108D00EF8118 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		A01E9E6918B5108D00EF8118 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		A01E9E6A18B5108D00EF8118 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		A01E9E6B18B5108D00EF8118 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
+		A01E9E6C18B5108D00EF8118 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		A01E9E6D18B5108D00EF8118 /* Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Range.h; sourceTree = "<group>"; };
+		A01E9E6E18B5108D00EF8118 /* Range.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Range.m; sourceTree = "<group>"; };
+		A01E9E6F18B5108D00EF8118 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		A01E9E7018B5108D00EF8118 /* Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resource.m; sourceTree = "<group>"; };
+		A01E9E7118B5108D00EF8118 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		A01E9E7218B5108D00EF8118 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		A01E9E7318B5108D00EF8118 /* TapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapView.h; sourceTree = "<group>"; };
+		A01E9E7418B5108D00EF8118 /* TapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapView.m; sourceTree = "<group>"; };
+		A01E9E7518B5108D00EF8118 /* Threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Threshold.h; sourceTree = "<group>"; };
+		A01E9E7618B5108D00EF8118 /* Threshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Threshold.m; sourceTree = "<group>"; };
+		A01E9E7718B5108D00EF8118 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A01E9E7818B5108D00EF8118 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A01E9E7918B5108D00EF8118 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		A01E9E7A18B5108D00EF8118 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		A01E9E7B18B5108D00EF8118 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		A01E9E7C18B5108D00EF8118 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01E9E3818B5105A00EF8118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01E9E3218B5105A00EF8118 = {
+			isa = PBXGroup;
+			children = (
+				A01E9E4018B5105A00EF8118 /* AssessmentModel */,
+				A01E9E3D18B5105A00EF8118 /* Frameworks */,
+				A01E9E3C18B5105A00EF8118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A01E9E3C18B5105A00EF8118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01E9E3B18B5105A00EF8118 /* AssessmentModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01E9E3D18B5105A00EF8118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01E9E3E18B5105A00EF8118 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01E9E4018B5105A00EF8118 /* AssessmentModel */ = {
+			isa = PBXGroup;
+			children = (
+				A01E9E4C18B5108D00EF8118 /* src */,
+				A01E9E4118B5105A00EF8118 /* Supporting Files */,
+			);
+			path = AssessmentModel;
+			sourceTree = "<group>";
+		};
+		A01E9E4118B5105A00EF8118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A01E9E4218B5105A00EF8118 /* AssessmentModel-Info.plist */,
+				A01E9E4318B5105A00EF8118 /* InfoPlist.strings */,
+				A01E9E4618B5105A00EF8118 /* AssessmentModel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A01E9E4C18B5108D00EF8118 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A01E9E4D18B5108D00EF8118 /* Assessment.h */,
+				A01E9E4E18B5108D00EF8118 /* Assessment.m */,
+				A01E9E4F18B5108D00EF8118 /* AssessmentFinishView.h */,
+				A01E9E5018B5108D00EF8118 /* AssessmentFinishView.m */,
+				A01E9E5118B5108D00EF8118 /* AssessmentManagerViewController.h */,
+				A01E9E5218B5108D00EF8118 /* AssessmentManagerViewController.m */,
+				A01E9E5318B5108D00EF8118 /* AssessmentStartView.h */,
+				A01E9E5418B5108D00EF8118 /* AssessmentStartView.m */,
+				A01E9E5518B5108D00EF8118 /* BaseParser.h */,
+				A01E9E5618B5108D00EF8118 /* BaseParser.m */,
+				A01E9E5718B5108D00EF8118 /* Criteria.h */,
+				A01E9E5818B5108D00EF8118 /* Criteria.m */,
+				A01E9E5918B5108D00EF8118 /* Element.h */,
+				A01E9E5A18B5108D00EF8118 /* Element.m */,
+				A01E9E5B18B5108D00EF8118 /* Engine.h */,
+				A01E9E5C18B5108D00EF8118 /* Instrument.h */,
+				A01E9E5D18B5108D00EF8118 /* Instrument.m */,
+				A01E9E5E18B5108D00EF8118 /* InstrumentTitleView.h */,
+				A01E9E5F18B5108D00EF8118 /* InstrumentTitleView.m */,
+				A01E9E6018B5108D00EF8118 /* InstrumentView.h */,
+				A01E9E6118B5108D00EF8118 /* InstrumentView.m */,
+				A01E9E6218B5108D00EF8118 /* Item.h */,
+				A01E9E6318B5108D00EF8118 /* Item.m */,
+				A01E9E6418B5108D00EF8118 /* ItemCalibration.h */,
+				A01E9E6518B5108D00EF8118 /* ItemCalibration.m */,
+				A01E9E6618B5108D00EF8118 /* ItemData.h */,
+				A01E9E6718B5108D00EF8118 /* ItemData.m */,
+				A01E9E6818B5108D00EF8118 /* Map.h */,
+				A01E9E6918B5108D00EF8118 /* Map.m */,
+				A01E9E6A18B5108D00EF8118 /* Object.h */,
+				A01E9E6B18B5108D00EF8118 /* Object.m */,
+				A01E9E6C18B5108D00EF8118 /* Parser.h */,
+				A01E9E6D18B5108D00EF8118 /* Range.h */,
+				A01E9E6E18B5108D00EF8118 /* Range.m */,
+				A01E9E6F18B5108D00EF8118 /* Resource.h */,
+				A01E9E7018B5108D00EF8118 /* Resource.m */,
+				A01E9E7118B5108D00EF8118 /* Result.h */,
+				A01E9E7218B5108D00EF8118 /* Result.m */,
+				A01E9E7318B5108D00EF8118 /* TapView.h */,
+				A01E9E7418B5108D00EF8118 /* TapView.m */,
+				A01E9E7518B5108D00EF8118 /* Threshold.h */,
+				A01E9E7618B5108D00EF8118 /* Threshold.m */,
+				A01E9E7718B5108D00EF8118 /* User.h */,
+				A01E9E7818B5108D00EF8118 /* User.m */,
+				A01E9E7918B5108D00EF8118 /* UUID.h */,
+				A01E9E7A18B5108D00EF8118 /* UUID.m */,
+				A01E9E7B18B5108D00EF8118 /* XMLReader.h */,
+				A01E9E7C18B5108D00EF8118 /* XMLReader.m */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A01E9EFE18B5148700EF8118 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01E9EFF18B514C000EF8118 /* Assessment.h in Headers */,
+				A01E9F0018B514C000EF8118 /* AssessmentFinishView.h in Headers */,
+				A01E9F0118B514C000EF8118 /* AssessmentManagerViewController.h in Headers */,
+				A01E9F0218B514C000EF8118 /* AssessmentStartView.h in Headers */,
+				A01E9F0318B514C000EF8118 /* BaseParser.h in Headers */,
+				A01E9F0418B514C000EF8118 /* Criteria.h in Headers */,
+				A01E9F0518B514C000EF8118 /* Element.h in Headers */,
+				A01E9F0618B514C000EF8118 /* Engine.h in Headers */,
+				A01E9F0718B514C000EF8118 /* Instrument.h in Headers */,
+				A01E9F0818B514C000EF8118 /* InstrumentTitleView.h in Headers */,
+				A01E9F0918B514C000EF8118 /* InstrumentView.h in Headers */,
+				A01E9F0A18B514C000EF8118 /* Item.h in Headers */,
+				A01E9F0B18B514C000EF8118 /* ItemCalibration.h in Headers */,
+				A01E9F0C18B514C000EF8118 /* ItemData.h in Headers */,
+				A01E9F0D18B514C000EF8118 /* Map.h in Headers */,
+				A01E9F0E18B514C000EF8118 /* Object.h in Headers */,
+				A01E9F0F18B514C000EF8118 /* Parser.h in Headers */,
+				A01E9F1018B514C000EF8118 /* Range.h in Headers */,
+				A01E9F1118B514C000EF8118 /* Resource.h in Headers */,
+				A01E9F1218B514C000EF8118 /* Result.h in Headers */,
+				A01E9F1318B514C000EF8118 /* TapView.h in Headers */,
+				A01E9F1618B514C000EF8118 /* UUID.h in Headers */,
+				A01E9F1718B514C000EF8118 /* XMLReader.h in Headers */,
+				A01E9F1418B514C000EF8118 /* Threshold.h in Headers */,
+				A01E9F1518B514C000EF8118 /* User.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A01E9E3A18B5105A00EF8118 /* AssessmentModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01E9E4918B5105A00EF8118 /* Build configuration list for PBXNativeTarget "AssessmentModel" */;
+			buildPhases = (
+				A01E9E3718B5105A00EF8118 /* Sources */,
+				A01E9E3818B5105A00EF8118 /* Frameworks */,
+				A01E9E3918B5105A00EF8118 /* Resources */,
+				A01E9EFE18B5148700EF8118 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssessmentModel;
+			productName = AssessmentModel;
+			productReference = A01E9E3B18B5105A00EF8118 /* AssessmentModel.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01E9E3318B5105A00EF8118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MSS;
+			};
+			buildConfigurationList = A01E9E3618B5105A00EF8118 /* Build configuration list for PBXProject "AssessmentModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A01E9E3218B5105A00EF8118;
+			productRefGroup = A01E9E3C18B5105A00EF8118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01E9E3A18B5105A00EF8118 /* AssessmentModel */,
+				A01E9F1818B5150000EF8118 /* BuildAssessmentModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01E9E3918B5105A00EF8118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A01E9F1C18B5151000EF8118 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=AssessmentModel  # replace with your framework name\nFMK_VERSION=1   # replace with your version\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01E9E3718B5105A00EF8118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01E9E8418B5108D00EF8118 /* Instrument.m in Sources */,
+				A01E9E8618B5108D00EF8118 /* InstrumentView.m in Sources */,
+				A01E9E8D18B5108D00EF8118 /* Resource.m in Sources */,
+				A01E9E8918B5108D00EF8118 /* ItemData.m in Sources */,
+				A01E9E8B18B5108D00EF8118 /* Object.m in Sources */,
+				A01E9E8218B5108D00EF8118 /* Criteria.m in Sources */,
+				A01E9E9218B5108D00EF8118 /* UUID.m in Sources */,
+				A01E9E8E18B5108D00EF8118 /* Result.m in Sources */,
+				A01E9E9018B5108D00EF8118 /* Threshold.m in Sources */,
+				A01E9E9118B5108D00EF8118 /* User.m in Sources */,
+				A01E9E7F18B5108D00EF8118 /* AssessmentManagerViewController.m in Sources */,
+				A01E9E7D18B5108D00EF8118 /* Assessment.m in Sources */,
+				A01E9E8118B5108D00EF8118 /* BaseParser.m in Sources */,
+				A01E9E7E18B5108D00EF8118 /* AssessmentFinishView.m in Sources */,
+				A01E9E9318B5108D00EF8118 /* XMLReader.m in Sources */,
+				A01E9E8F18B5108D00EF8118 /* TapView.m in Sources */,
+				A01E9E8A18B5108D00EF8118 /* Map.m in Sources */,
+				A01E9E8718B5108D00EF8118 /* Item.m in Sources */,
+				A01E9E8318B5108D00EF8118 /* Element.m in Sources */,
+				A01E9E8518B5108D00EF8118 /* InstrumentTitleView.m in Sources */,
+				A01E9E8018B5108D00EF8118 /* AssessmentStartView.m in Sources */,
+				A01E9E8818B5108D00EF8118 /* ItemCalibration.m in Sources */,
+				A01E9E8C18B5108D00EF8118 /* Range.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A01E9E4318B5105A00EF8118 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01E9E4418B5105A00EF8118 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01E9E4718B5105A00EF8118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A01E9E4818B5105A00EF8118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A01E9E4A18B5105A00EF8118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssessmentModel/AssessmentModel-Prefix.pch";
+				INFOPLIST_FILE = "AssessmentModel/AssessmentModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A01E9E4B18B5105A00EF8118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssessmentModel/AssessmentModel-Prefix.pch";
+				INFOPLIST_FILE = "AssessmentModel/AssessmentModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		A01E9F1A18B5150000EF8118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A01E9F1B18B5150000EF8118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01E9E3618B5105A00EF8118 /* Build configuration list for PBXProject "AssessmentModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01E9E4718B5105A00EF8118 /* Debug */,
+				A01E9E4818B5105A00EF8118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01E9E4918B5105A00EF8118 /* Build configuration list for PBXNativeTarget "AssessmentModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01E9E4A18B5105A00EF8118 /* Debug */,
+				A01E9E4B18B5105A00EF8118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A01E9F1918B5150000EF8118 /* Build configuration list for PBXAggregateTarget "BuildAssessmentModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01E9F1A18B5150000EF8118 /* Debug */,
+				A01E9F1B18B5150000EF8118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A01E9E3318B5105A00EF8118 /* Project object */;
+}
